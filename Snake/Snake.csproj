@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Assets\Fonts\DroidSansMono.ttf" />
+    <None Remove="Assets\Icon\SnakeIcon.ico" />
+    <None Remove="Assets\Textures\Body.png" />
+    <None Remove="Assets\Textures\DeadBody.png" />
+    <None Remove="Assets\Textures\DeadHead.png" />
+    <None Remove="Assets\Textures\Empty.png" />
+    <None Remove="Assets\Textures\Food.png" />
+    <None Remove="Assets\Textures\Head.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Include="App.xaml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\Fonts\DroidSansMono.ttf" />
+    <Resource Include="Assets\Icon\SnakeIcon.ico" />
+    <Resource Include="Assets\Textures\Body.png" />
+    <Resource Include="Assets\Textures\DeadBody.png" />
+    <Resource Include="Assets\Textures\DeadHead.png" />
+    <Resource Include="Assets\Textures\Empty.png" />
+    <Resource Include="Assets\Textures\Food.png" />
+    <Resource Include="Assets\Textures\Head.png" />
+  </ItemGroup>
+
+</Project>
